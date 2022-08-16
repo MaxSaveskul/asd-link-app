@@ -1,9 +1,11 @@
+import { Container } from './ErrorPage.styles'
+
 const ErrorPage = () => {
 	return (
-		<div>
+		<Container>
 			<h1>404</h1>
 			<h3>Page Not Found</h3>
-		</div>
+		</Container>
 	)
 }
 

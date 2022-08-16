@@ -1,6 +1,11 @@
+import { Container } from './DocsPage.styles'
+
 const DocsPage = () => {
 	return (
-		<h2>DocsPage</h2>
+		<Container>
+			<h2>Here will be the docs</h2>
+		</Container>
+
 	)
 }
 

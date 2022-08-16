@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import SharedLayout from './SharedLayout/SharedLayout';
+import SharedLayout from './SharedLayout';
 import MainPage from '../pages/MainPage/MainPage';
 import ValidatePage from '../pages/ValidatePage/ValidatePage';
 import DocsPage from '../pages/DocsPage/DocsPage';

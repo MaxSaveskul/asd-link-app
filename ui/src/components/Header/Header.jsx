@@ -1,10 +1,11 @@
-import { Logo, Line, FlexContainer, StyledUl, ValidateLink, DocsLink } from './Header.styles'
+import { Logo, LineImg, FlexContainer, StyledUl, ValidateLink, DocsLink } from './Header.styles'
+import lineLogo from '../../assets/line-logo.svg'
 
 const Header = () => {
 	return (
 		<FlexContainer>
 			<div>
-				<Line />
+				<LineImg src={lineLogo} />
 				<Logo to="/">asd.link®</Logo>
 			</div>
 			<nav>
