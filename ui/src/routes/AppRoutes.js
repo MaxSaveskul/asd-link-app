@@ -1,10 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import SharedLayout from './SharedLayout';
 import MainPage from '../pages/MainPage/MainPage';
 import ValidatePage from '../pages/ValidatePage/ValidatePage';
 import DocsPage from '../pages/DocsPage/DocsPage';
-import ErrorPage from '../pages/ErrorPage/ErrorPage'
+import ErrorPage from '../pages/ErrorPage/ErrorPage';
 
 const AppRoutes = () => {
 	return (
@@ -18,7 +19,7 @@ const AppRoutes = () => {
 				</Route>
 			</Routes>
 		</BrowserRouter>
-	)
-}
+	);
+};
 
 export default AppRoutes;

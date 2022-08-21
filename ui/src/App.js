@@ -1,7 +1,8 @@
-import { createGlobalStyle } from 'styled-components'
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
 
-import AppRoutes from './routes/AppRoutes'
-import backgroundImg from './assets/background.svg'
+import AppRoutes from './routes/AppRoutes';
+import backgroundImg from './assets/background.svg';
 
 const GlobalStyle = createGlobalStyle`
 h1 {
@@ -19,7 +20,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 }
-`
+`;
 
 function App() {
 	return (

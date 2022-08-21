@@ -1,0 +1,39 @@
+{
+	"name": "asd-link-app",
+	"version": "1.0.0",
+	"description": "ASD Link App on Mern Stack",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"server": "nodemon app.js",
+		"client": "npm run start --prefix ui",
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"startall": "concurrently \"npm run start\" \"npm run client\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MaxSaveskul/asd-link-app.git"
+	},
+	"keywords": [
+		"link",
+		"shorter",
+		"asd-link",
+		"mern"
+	],
+	"author": "MaxSaveskul <maxsaveskul@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MaxSaveskul/asd-link-app/issues"
+	},
+	"homepage": "https://github.com/MaxSaveskul/asd-link-app#readme",
+	"dependencies": {
+		"concurrently": "^7.3.0",
+		"config": "^3.3.7",
+		"cors": "^2.8.5",
+		"express": "^4.18.1",
+		"mongoose": "^6.5.2",
+		"nodemon": "^2.0.19",
+		"shortid": "^2.2.16",
+		"valid-url": "^1.0.9"
+	}
+}

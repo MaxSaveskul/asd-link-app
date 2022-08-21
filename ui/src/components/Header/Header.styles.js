@@ -51,7 +51,7 @@ export const ValidateLink = styled(Link)`
 		cursor: pointer;
 		opacity: 0.85;
 		}
-`
+`;
 
 export const DocsLink = styled(Link)`
 	cursor: pointer;
@@ -72,4 +72,4 @@ export const DocsLink = styled(Link)`
 		cursor: pointer;
 		opacity: 0.85;
 		}
-`
+`;

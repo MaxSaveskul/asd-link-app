@@ -13,4 +13,4 @@ export const Container = styled.div`
 	font-style: normal;
 	font-weight: 500;
 	color: #656565;
-`
+`;

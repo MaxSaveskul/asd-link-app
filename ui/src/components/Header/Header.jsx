@@ -1,5 +1,6 @@
-import { Logo, LineImg, FlexContainer, StyledUl, ValidateLink, DocsLink } from './Header.styles'
-import lineLogo from '../../assets/line-logo.svg'
+import React from 'react';
+import { Logo, LineImg, FlexContainer, StyledUl, ValidateLink, DocsLink } from './Header.styles';
+import lineLogo from '../../assets/line-logo.svg';
 
 const Header = () => {
 	return (
@@ -15,7 +16,7 @@ const Header = () => {
 				</StyledUl>
 			</nav>
 		</FlexContainer>
-	)
-}
+	);
+};
 
 export default Header;
