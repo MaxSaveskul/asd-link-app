@@ -1,5 +1,5 @@
 # ASD Link
-## An app that shortens your links
+### An app that shortens your links
 ### Full-stack app on MERN stack - MongoDB, Express.js, React, Node.js
 
 ## How to run
