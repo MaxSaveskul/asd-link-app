@@ -1,7 +1,0 @@
-{
-	"port": 5000,
-	"mongoUri": "mongodb+srv://MaxSaveskul:1234asd@cluster0.cr4shvz.mongodb.net/cluster0?retryWrites=true&w=majority",
-	"baseUrl": "http://localhost:5000/g",
-	"API_BASE_URL_POST": "http://localhost:5000/link/short-url",
-	"API_BASE_URL_GET": "http://localhost:5000/longlink/"
-}
