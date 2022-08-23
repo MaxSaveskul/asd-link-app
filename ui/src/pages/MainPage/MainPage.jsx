@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import { usePostHttp } from "../../hooks/useHttpHooks";
-import { Container, Title, Span, Input, ResultDiv } from "./MainPage.styles";
+import { Container, Title, Span, Input, ResultButton } from "./MainPage.styles";
 import Button from "../../components/Button/Button";
 import wavingHand from '../../assets/waving-hand.png';
 
@@ -10,6 +10,7 @@ const MainPage = () => {
 
 	const [value, setValue] = useState('');
 	const [readyLink, setReadyLink] = useState('');
+
 
 	let http = usePostHttp(value);
 
@@ -43,7 +44,7 @@ const MainPage = () => {
 				<br />
 				<Button text="Short me!" />
 			</form>
-			{readyLink ? <ResultDiv onClick={() => copy(readyLink)}>{readyLink}</ResultDiv> : null}
+			{readyLink ? <ResultButton onClick={() => copy(readyLink)}>{readyLink}</ResultButton> : null}
 		</Container>
 	);
 };

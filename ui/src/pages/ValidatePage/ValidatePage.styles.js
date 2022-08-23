@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	width: 490px;
+	max-width: 490px;
 	margin: 0 auto; 
 	margin-top: 120px;
 	text-align: center;
@@ -41,9 +41,13 @@ export const Input = styled.input`
 	&::placeholder {
 		color: #AAAAAA;
 	}
+
+	@media (max-width: 500px) {
+    	max-width: 300px;
+  }
 `;
 
-export const ResultDiv = styled.button`
+export const ResultButton = styled.button`
 	border: 0;
 	cursor: pointer;
 	display: flex;

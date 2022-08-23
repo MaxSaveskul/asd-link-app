@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import { Container, Title, Span, Input, ResultDiv } from "./ValidatePage.styles";
+import { Container, Title, Span, Input, ResultButton } from "./ValidatePage.styles";
 import { useGetHttp } from "../../hooks/useHttpHooks";
 import wavingHand from '../../assets/waving-hand.png';
 import Button from "../../components/Button/Button";
@@ -32,13 +32,22 @@ const ValidatePage = () => {
 
 	return (
 		<Container>
-			<Title>Get the <Span>long</Span> link as you go <img src={wavingHand} alt="Waving hand emoji" height="31px" /></Title>
+			<Title>
+				Get the {" "}
+				<Span>long</Span> {" "}
+				link as you go
+				<img src={wavingHand} alt="Waving hand emoji" height="31px" />
+			</Title>
 			<form onSubmit={sumbitFormHandler}>
-				<Input type="url" placeholder="http://localhost:5000/g/yourlinkcode" value={value} onChange={inputChangeHandler} />
+				<Input
+					type="url"
+					placeholder="http://localhost:5000/g/yourlinkcode"
+					value={value}
+					onChange={inputChangeHandler} />
 				<br />
 				<Button text="Validate" />
 			</form>
-			{readyLink ? <ResultDiv onClick={() => copy(readyLink)}>{readyLink}</ResultDiv> : null}
+			{readyLink && <ResultButton onClick={() => copy(readyLink)}>{readyLink}</ResultButton>}
 		</Container>
 	);
 };
