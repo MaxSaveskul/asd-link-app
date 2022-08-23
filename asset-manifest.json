@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/asd-link-app/static/js/main.714ca89b.js",
+    "main.js": "/asd-link-app/static/js/main.d0bc5bd3.js",
     "static/media/waving-hand.png": "/asd-link-app/static/media/waving-hand.85574ea09e5a10e91eea.png",
     "static/media/background.svg": "/asd-link-app/static/media/background.893f0e538200751c13bbc5d53de336e1.svg",
     "index.html": "/asd-link-app/index.html",
     "static/media/line-logo.svg": "/asd-link-app/static/media/line-logo.4179e231aec1b8a19060729f8b12f8dc.svg",
-    "main.714ca89b.js.map": "/asd-link-app/static/js/main.714ca89b.js.map"
+    "main.d0bc5bd3.js.map": "/asd-link-app/static/js/main.d0bc5bd3.js.map"
   },
   "entrypoints": [
-    "static/js/main.714ca89b.js"
+    "static/js/main.d0bc5bd3.js"
   ]
 }
