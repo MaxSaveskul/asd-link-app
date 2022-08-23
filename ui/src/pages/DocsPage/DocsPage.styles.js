@@ -13,9 +13,11 @@ export const Container = styled.div`
 	font-style: normal;
 	font-weight: 500;
 	color: #656565;
+	overflow-wrap: break-word;
 `;
 
 export const Code = styled.code`
 	font-size: 16px;
 	color: #2b303b;
+	overflow-wrap: break-word;
 `;

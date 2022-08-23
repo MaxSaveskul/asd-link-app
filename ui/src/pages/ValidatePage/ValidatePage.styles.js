@@ -6,6 +6,9 @@ export const Container = styled.div`
 	margin-top: 120px;
 	text-align: center;
 	
+	@media (max-width: 500px) {
+    	width: 90%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -43,8 +46,9 @@ export const Input = styled.input`
 	}
 
 	@media (max-width: 500px) {
-    	max-width: 300px;
+    	width: 90%;
   }
+
 `;
 
 export const ResultButton = styled.button`

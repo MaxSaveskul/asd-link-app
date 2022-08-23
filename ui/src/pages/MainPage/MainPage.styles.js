@@ -5,6 +5,10 @@ export const Container = styled.div`
 	margin: 0 auto; 
 	margin-top: 120px;
 	text-align: center;
+
+	@media (max-width: 500px) {
+    	width: 90%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -15,6 +19,7 @@ export const Title = styled.h1`
 	line-height: 39px;
 	color: #000000;
 	margin-bottom: 31px;
+
 `;
 
 export const Span = styled.span`
@@ -42,8 +47,9 @@ export const Input = styled.input`
 	}
 
 	@media (max-width: 500px) {
-    	max-width: 300px;
+    	width: 90%;
   }
+
 `;
 
 export const ResultButton = styled.button`

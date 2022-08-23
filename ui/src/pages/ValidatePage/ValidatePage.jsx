@@ -36,7 +36,7 @@ const ValidatePage = () => {
 				Get the {" "}
 				<Span>long</Span> {" "}
 				link as you go
-				<img src={wavingHand} alt="Waving hand emoji" height="31px" />
+				{" "}<img src={wavingHand} alt="Waving hand emoji" height="31px" />
 			</Title>
 			<form onSubmit={sumbitFormHandler}>
 				<Input
